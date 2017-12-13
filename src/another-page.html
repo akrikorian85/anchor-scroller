@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="./css/main.css">
+  <script src="./js/sticky-header-scroller.js"></script>
+  <script>
+    var s = new AnchorScroller(150, 75, 737);
+    s.init();
+  </script>
+</head>
+<body id="another-page">
+  <header>
+    <nav>
+        <ul>
+          <li>
+            <a href="/">Home</a>
+            <ul>
+                <li><a href="/#anchor-1">Anchor 1</a></li>
+                <li><a href="/#anchor-2">Anchor 2</a></li>
+                <li><a href="/#anchor-3">Anchor 3</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="/another-page.html">Another Page</a>
+            <ul>
+                <li><a href="/another-page.html#anchor-1">Anchor 1</a></li>
+                <li><a href="/another-page.html#anchor-2">Anchor 2</a></li>
+                <li><a href="/another-page.html#anchor-3">Anchor 3</a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+  </header>
+  <main class="content">
+    <section id="anchor-1"></section>
+    <section id="anchor-2"></section>
+    <section id="anchor-3"></section>
+  </main>
+</body>
+</html>

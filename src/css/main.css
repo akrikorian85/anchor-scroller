@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+}
+header {
+  background-color: gray;
+  height: 75px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+nav ul {
+  margin: 0;
+}
+nav > ul > li {
+  display: inline-block;
+}
+main {
+  margin-top: 75px;
+}
+section {
+  height: 1000px;
+}
+#home #anchor-1 {
+  background-color: darkblue;
+}
+#home #anchor-2 {
+  background-color: #006F8B;
+}
+#home #anchor-3 {
+  background-color: #008B3A;
+}
+#another-page #anchor-1 {
+  background-color: #8B0000;
+}
+#another-page #anchor-2 {
+  background-color: #C58989;
+}
+#another-page #anchor-3 {
+  background-color: #F57621;
+}
+@media (min-width: 737px) {
+  header {
+    height: 150px;
+  }
+  main {
+    margin-top: 150px;
+  }
+}
