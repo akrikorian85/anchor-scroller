@@ -104,3 +104,5 @@ var AnchorScroller = function (desktopOffset = 0, mobileOffset = 0, breakpoint =
     }
   };
 };
+module.exports = AnchorScroller;
+// export default AnchorScroller;

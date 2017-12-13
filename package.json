@@ -1,0 +1,20 @@
+{
+  "name": "anchor-scroller",
+  "version": "1.0.0",
+  "description": "Javascript library to handle navigating with anchor links when there is a need to offset the browser's native jumping scroll effect. Having a fixed header element and navigating to an anchor point that is on a different page can cause the content to be covered by the header. Using this library, the browser will smooth scroll to a position taking an offset into account.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "gulp": "^3.9.1",
+    "gulp-webpack": "^1.5.0",
+    "webpack": "^3.10.0"
+  },
+  "dependencies": {}
+}
